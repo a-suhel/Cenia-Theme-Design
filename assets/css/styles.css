@@ -1,0 +1,115 @@
+*{
+    font-family: Roboto;
+}
+
+.company-name{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-right: 65px;
+}
+.search-bar{
+    width:45vw!important;
+    
+}
+
+.bg{
+    background-color: black;
+}
+.recom{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.category{
+    font-size: 0.8rem;
+}
+.product-name{
+    font-size: 1rem;
+}
+.cont-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colors{
+    font-size: 0.8rem;
+    color: rgb(173, 173, 173);
+}
+.cont-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.filtered{
+    background:linear-gradient(90deg, rgba(234, 234, 236, 0.3) 0%, rgba(231, 231, 231, 0.3) 38%, rgba(214, 224, 219, 0.3) 100%);
+}
+.product{
+    background: rgb(240, 239, 239);
+    padding-top: 60px;
+    padding-bottom:80px;
+}
+.showcase{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.showcase-1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.showcase-2, .showcase-3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-selection{
+    display: flex;
+    justify-content: center;
+    height: 528px;
+    background:linear-gradient(90deg, rgba(17, 17, 17, 0.164) 0%, rgba(20, 20, 20, 0.3) 38%, rgba(17, 17, 17, 0.3) 100%), url(../images/lipstick-1.jpg);
+    background-repeat: no-repeat;
+}
+.left-selection a{
+    align-self: center;
+    border-radius: 25px;
+    padding: 12px 35px 12px 35px;
+    font-size: 0.8rem;
+}
+.banner{
+    height: 400px;
+    background-image: url(../images/footer-banner.jpg);
+    background-size: cover;
+}
+.card-img-top{
+    object-fit: cover;
+}
+.bg .nav-item{
+font-size: 0.85rem;
+}
+.first-hamburger-icon{
+    margin: 0 auto;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.benefits{
+    font-weight: 100;
+}
+
+/* *{
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }   */
+
+@media only screen and (max-width:776px){
+    .search-bar{
+        width:80vw!important;
+        
+    }
+
+}
+
+
