@@ -88,6 +88,28 @@
     height: 20px;
 }
 
+.owl-prev{
+    position: absolute;
+    left: -25px;
+    top: 40%;
+    border-radius: 5px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: -27px;
+    top: 35%;
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    
+    background-color: black;
+    color: white;
+    padding: 8px!important;
+}
+.owl-carousel button.owl-dot{
+    display: none;
+}
 .banner{
     height: 400px;
     background-image: url(../images/footer-banner.jpg);
