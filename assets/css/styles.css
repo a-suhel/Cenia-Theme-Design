@@ -121,6 +121,9 @@
     object-fit: cover;
     
 }
+.spacing .card{
+    background-color: white;
+}
 .card{
     border:none;
     border-radius: 0;
