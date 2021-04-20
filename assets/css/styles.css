@@ -160,5 +160,23 @@ font-size: 0.85rem;
     }
 
 }
+@media only screen and (max-width:991px){
+    .search{
+        margin-right: 1rem;
+    }
+
+    .owl-prev{
+left: 0px;
+    }
+    button.owl-next{
+display: none;
+    }
+}
+
+@media only screen and (max-width:1199px){
+    .cart-title, .offers-title, .account-title{
+        font-size: 0.7rem;
+    }
+}
 
 
