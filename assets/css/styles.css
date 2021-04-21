@@ -168,7 +168,7 @@ font-size: 0.85rem;
 
 @media only screen and (max-width:776px){
     .search-bar{
-        width:80vw!important;
+        width:100vw!important;
         
     }
 
@@ -181,8 +181,8 @@ font-size: 0.85rem;
     .owl-prev{
 left: 0px;
     }
-    button.owl-next{
-display: none;
+    .owl-carousel .owl-nav button.owl-next{
+right: 0px;
     }
 }
 
